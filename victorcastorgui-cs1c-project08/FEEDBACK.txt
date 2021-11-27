@@ -1,0 +1,35 @@
+FEEDBACK:
+
+Overall, well done in sticking to it this quarter.
+
+In your future academic endeavors strive to start your projects (whatever they may be)
+	on day one. That way you are not rushed in a last minute solution. Instead giving yourself 
+	time to be creative!
+	
+   
+Good representation of findings for each array size.
+    Try overlaying the graphs to more easily see the trend of optimal recursion-limit
+    as the array size increases.
+    
+    
+-1 Missing library below required in order to compile your implementation:
+XSSFWorkbook cannot be resolved to a type
+
+
+-3 Incomplete Chart does not show the results of runtime across different 
+   array sizes and recursion-limits as required by project description:
+   "A line graph of the impact of recursion limit (x-axis) on different 
+    array sizes in terms of runtime (y-axis)… This means that at least 
+    one of your graph diagrams must have all the array sizes overlaid."
+
+
+-2 Incomplete testing of array sizes as required by project description:
+"Your test must show the following:
+...
+Run them on different size arrays from 20,000 up to the largest you can get in your computer 
+(you should be able to get it up to close to 10 million or more) with at least 20 intervals. 
+"
+   Why have such a large gap between array size 80000 and 1280000?
+       
+-Bita.
+
