@@ -1,0 +1,8 @@
+add bananas
+add milk
+add apples
+add soup
+buy milk
+buy apples
+buy bananas
+buy soup

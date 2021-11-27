@@ -1,0 +1,9 @@
+add banana
+add tangerines
+add turnips
+add turnips
+add apples
+add apples
+buy milk
+buy banana
+buy milk
