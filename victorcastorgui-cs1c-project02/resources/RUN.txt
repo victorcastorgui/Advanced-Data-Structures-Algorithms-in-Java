@@ -1,0 +1,69 @@
+-----------------------------------------------------
+-----------------------------------------------------
+budget: 100
+
+NOTES: Testing target budget > sum of all elements.
+-----------------------------------------------------
+
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54997:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project02/out/production/victorcastorgui-cs1c-project02:/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project02/lib/json-simple-1.1.1.jar" subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+100
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 491126 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+
+
+
+---------------------------------------------------
+---------------------------------------------------
+budget: 27
+
+NOTES: Testing set of elements found with sums
+       to exactly to target budget.
+---------------------------------------------------
+
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54986:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project02/out/production/victorcastorgui-cs1c-project02:/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project02/lib/json-simple-1.1.1.jar" subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+27
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 98244 ns
+Purchased grocery prices are:
+[2.5, 11.5, 7.0, 6.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+
+---------------------------------------------------
+---------------------------------------------------
+budget: 37.3
+
+NOTES: Testing target budget returning closest match.
+---------------------------------------------------
+
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54992:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project02/out/production/victorcastorgui-cs1c-project02:/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project02/lib/json-simple-1.1.1.jar" subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+37.3
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 4 ms : 926057 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 15.0, 4.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+
