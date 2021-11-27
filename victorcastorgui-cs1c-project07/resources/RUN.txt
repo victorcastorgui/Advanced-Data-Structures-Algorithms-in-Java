@@ -1,0 +1,370 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/findGenres.txt
+           resources/findIDs.txt
+
+NOTES: This is a test file containing both valid and
+invalid genres and IDs.
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51814:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/out/production/victorcastorgui-cs1c-project07:/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/lib/json-simple-1.1.1.jar" hashTables.MyTunes
+Total number of songs read 59600
+Test file for id table: resources/findIDs.txt
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Finding song id: 3
+Song id 3 found in tableOfSongIDs.
+
+Finding song id: 4
+Song id 4 found in tableOfSongIDs.
+
+Finding song id: 99
+Song id 99 found in tableOfSongIDs.
+
+Finding song id: 99999
+Song id 99999 NOT found in tableOfSongIDs.
+Done with testing table of ids.
+
+Test file for genre table: resources/findGenres.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres.
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres.
+
+Finding genre: FOOTHILL
+Genre "FOOTHILL" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
+
+
+
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/findIDs.txt
+           resources/AllGenres.txt
+
+NOTES: Test file containing all genres from
+music_genre_subset.
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51836:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/out/production/victorcastorgui-cs1c-project07:/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/lib/json-simple-1.1.1.jar" hashTables.MyTunes
+Total number of songs read 59600
+Test file for id table: resources/findIDs.txt
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Finding song id: 3
+Song id 3 found in tableOfSongIDs.
+
+Finding song id: 4
+Song id 4 found in tableOfSongIDs.
+
+Finding song id: 99
+Song id 99 found in tableOfSongIDs.
+
+Finding song id: 99999
+Song id 99999 NOT found in tableOfSongIDs.
+Done with testing table of ids.
+
+Test file for genre table: resources/AllGenres.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres.
+
+Finding genre: punk
+Genre "punk" found in tableOfGenres.
+
+Finding genre: folk
+Genre "folk" found in tableOfGenres.
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres.
+
+Finding genre: dance and electronica
+Genre "dance and electronica" found in tableOfGenres.
+
+Finding genre: metal
+Genre "metal" found in tableOfGenres.
+
+Finding genre: jazz and blues
+Genre "jazz and blues" found in tableOfGenres.
+
+Finding genre: classical
+Genre "classical" found in tableOfGenres.
+
+Finding genre: hip-hop
+Genre "hip-hop" found in tableOfGenres.
+
+Finding genre: soul and reggae
+Genre "soul and reggae" found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
+
+
+
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/findIDs.txt
+           resources/invalidGenres.txt
+
+NOTES: Test file containing valid and invalid ID's
+and all invalid genres.
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51850:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/out/production/victorcastorgui-cs1c-project07:/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/lib/json-simple-1.1.1.jar" hashTables.MyTunes
+Total number of songs read 59600
+Test file for id table: resources/findIDs.txt
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Finding song id: 3
+Song id 3 found in tableOfSongIDs.
+
+Finding song id: 4
+Song id 4 found in tableOfSongIDs.
+
+Finding song id: 99
+Song id 99 found in tableOfSongIDs.
+
+Finding song id: 99999
+Song id 99999 NOT found in tableOfSongIDs.
+Done with testing table of ids.
+
+Test file for genre table: resources/invalidGenres.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: 123
+Genre "123" NOT found in tableOfGenres.
+
+Finding genre: slow
+Genre "slow" NOT found in tableOfGenres.
+
+Finding genre: lofi
+Genre "lofi" NOT found in tableOfGenres.
+
+Finding genre: indie
+Genre "indie" NOT found in tableOfGenres.
+
+Finding genre: country
+Genre "country" NOT found in tableOfGenres.
+
+Finding genre: kpop
+Genre "kpop" NOT found in tableOfGenres.
+
+Finding genre: adsdad
+Genre "adsdad" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
+
+
+
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/invalidIDs.txt
+           resources/AllGenres.txt
+
+NOTES: Test file containing invalid ID's
+and all valid genres.
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51859:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/out/production/victorcastorgui-cs1c-project07:/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/lib/json-simple-1.1.1.jar" hashTables.MyTunes
+Total number of songs read 59600
+Test file for id table: resources/invalidIDs.txt
+
+Finding song id: -1
+Song id -1 NOT found in tableOfSongIDs.
+
+Warning: Input "122131231231231331312" is not a valid number. Skipping.
+
+Finding song id: -9989
+Song id -9989 NOT found in tableOfSongIDs.
+
+Finding song id: 0
+Song id 0 NOT found in tableOfSongIDs.
+
+Warning: Input "abcdefghijk" is not a valid number. Skipping.
+
+Warning: Input "pop" is not a valid number. Skipping.
+
+Warning: Input "--1" is not a valid number. Skipping.
+Done with testing table of ids.
+
+Test file for genre table: resources/AllGenres.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres.
+
+Finding genre: punk
+Genre "punk" found in tableOfGenres.
+
+Finding genre: folk
+Genre "folk" found in tableOfGenres.
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres.
+
+Finding genre: dance and electronica
+Genre "dance and electronica" found in tableOfGenres.
+
+Finding genre: metal
+Genre "metal" found in tableOfGenres.
+
+Finding genre: jazz and blues
+Genre "jazz and blues" found in tableOfGenres.
+
+Finding genre: classical
+Genre "classical" found in tableOfGenres.
+
+Finding genre: hip-hop
+Genre "hip-hop" found in tableOfGenres.
+
+Finding genre: soul and reggae
+Genre "soul and reggae" found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
+
+
+
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/invalidIDs.txt
+           resources/invalidGenres.txt
+
+NOTES: Test file containing invalid ID's
+and invalid genres.
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51865:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/out/production/victorcastorgui-cs1c-project07:/Users/victorcastor/Desktop/Foothill College/CS/1C/victorcastorgui-cs1c-project07/lib/json-simple-1.1.1.jar" hashTables.MyTunes
+Total number of songs read 59600
+Test file for id table: resources/invalidIDs.txt
+
+Finding song id: -1
+Song id -1 NOT found in tableOfSongIDs.
+
+Warning: Input "122131231231231331312" is not a valid number. Skipping.
+
+Finding song id: -9989
+Song id -9989 NOT found in tableOfSongIDs.
+
+Finding song id: 0
+Song id 0 NOT found in tableOfSongIDs.
+
+Warning: Input "abcdefghijk" is not a valid number. Skipping.
+
+Warning: Input "pop" is not a valid number. Skipping.
+
+Warning: Input "--1" is not a valid number. Skipping.
+Done with testing table of ids.
+
+Test file for genre table: resources/invalidGenres.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: 123
+Genre "123" NOT found in tableOfGenres.
+
+Finding genre: slow
+Genre "slow" NOT found in tableOfGenres.
+
+Finding genre: lofi
+Genre "lofi" NOT found in tableOfGenres.
+
+Finding genre: indie
+Genre "indie" NOT found in tableOfGenres.
+
+Finding genre: country
+Genre "country" NOT found in tableOfGenres.
+
+Finding genre: kpop
+Genre "kpop" NOT found in tableOfGenres.
+
+Finding genre: adsdad
+Genre "adsdad" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
