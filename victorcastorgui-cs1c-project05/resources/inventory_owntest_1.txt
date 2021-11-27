@@ -1,0 +1,7 @@
+add banana
+add kiwi
+add banana
+add apple
+add milk
+buy kiwi
+buy apple
